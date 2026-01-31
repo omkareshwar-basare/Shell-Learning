@@ -16,14 +16,14 @@ else
 fi
 }
 
-echo "Installing Ngnix...."
+
 dnf install nginx -y
 VALIDATE $? "Installing Nginx"
 
-echo "Installing MySQL...."
+
 dnf install mysql -y
 VALIDATE $? "Installing MySQL"
 
-echo "Installing NodeJS...."
+
 dnf install nodejs -y
 VALIDATE $? "Installing NodeJS"
