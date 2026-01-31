@@ -24,10 +24,8 @@ fi
 dnf install nginx -y &>> $LOGS_FILE
 VALIDATE $? "Installing Nginx"
 
-
 dnf install mysql -y &>> $LOGS_FILE
 VALIDATE $? "Installing MySQL"
 
-s
 dnf install nodejs -y &>> $LOGS_FILE
 VALIDATE $? "Installing NodeJS"
